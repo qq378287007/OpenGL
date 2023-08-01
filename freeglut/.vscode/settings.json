@@ -1,0 +1,10 @@
+{
+    "code-runner.executorMap": 
+    {
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt -L. -lopengl32 -lglu32 -lfreeglut -mwindows && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -I. -L. -lopengl32 -lglu32 -lfreeglut -mwindows && $dir$fileNameWithoutExt"
+    },
+    "files.associations": {
+        "freeglut_std.h": "c"
+    }
+}
