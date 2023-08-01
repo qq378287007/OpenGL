@@ -1,6 +1,5 @@
 {
-    "files.associations": {
-        "glfw3.h": "c",
-        "glad.h": "c"
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ $fileName glad.c -o $fileNameWithoutExt -I. -L. -lglfw3 -mwindows && $dir$fileNameWithoutExt"
     }
 }
