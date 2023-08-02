@@ -1,0 +1,10 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ $fileName glad.c -o $fileNameWithoutExt -I. -L. -lglfw3 -mwindows && $dir$fileNameWithoutExt"
+    },
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp"
+    },
+    "cmake.sourceDirectory": "C:/Users/mali/Desktop/OpenGL/glad/glm"
+}
