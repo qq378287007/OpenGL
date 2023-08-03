@@ -2,7 +2,7 @@
 
 void init()
 {
-    glClearColor(0.1, 0.1, 0.4, 0.0);
+    glClearColor(0.05f, 0.35f, 0.7f, 1.0f);
     glShadeModel(GL_SMOOTH);
 }
 
@@ -38,10 +38,10 @@ int main(int argc, char *argv[])
 {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    // glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+    //glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA);
 
-    glutInitWindowSize(500, 500);
-    glutInitWindowPosition(100, 100);
+    glutInitWindowSize(600, 400);
+    glutInitWindowPosition(100, 100);   
     glutCreateWindow("test");
 
     init();
@@ -52,5 +52,3 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-
-// gcc main.c -o main -L. -lopengl32 -lglu32 -lfreeglut -mwindows

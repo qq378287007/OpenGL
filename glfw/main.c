@@ -24,5 +24,3 @@ int main()
     glfwTerminate();
     return 0;
 }
-
-// gcc main.c -o main -L. -lopengl32 -lglu32 -lglfw3 -mwindows
